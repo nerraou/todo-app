@@ -1,7 +1,7 @@
 .button{
     background-color: white;
     color: black;
-    border: 2px solid #e7e7e7;
+    border: 2px solid #54BAB9;
     text-align: center;
     padding: 16px 32px;
     margin: 4px 2px;
@@ -10,14 +10,14 @@
 }
 
 .button:hover{
-    background-color: #e7e7e7;
+    background-color: #54BAB9;
 }
 .background{
     width: 100vw;
     min-height: 100vh;
-    background-color: rgb(125, 125, 122);
+    background-color: #E9DAC1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
