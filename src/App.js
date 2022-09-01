@@ -1,8 +1,18 @@
-import { Button  } from "./components/Button";
+import { Button } from "./components/Button";
+import { Modal } from "./components/Modal";
+import { useState } from "react";
+
 function App() {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="App">
-      <Button />
+      <Button
+        onClick={() => {
+          setShow(true);
+        }}
+      />
+      {show ? <Modal /> : null}
     </div>
   );
 }
