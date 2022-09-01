@@ -1,23 +1,15 @@
-.button{
-    background-color: white;
-    color: black;
-    border: 2px solid #54BAB9;
-    text-align: center;
-    padding: 16px 32px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #54bab9;
+  text-align: center;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.button:hover{
-    background-color: #54BAB9;
-}
-.background{
-    width: 100vw;
-    min-height: 100vh;
-    background-color: #E9DAC1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
+.button:hover {
+  background-color: #54bab9;
 }
