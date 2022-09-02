@@ -1,0 +1,13 @@
+.task {
+  position: relative;
+  background-color: #9ed2c6;
+  padding: 1em;
+  margin: 5px;
+  border-radius: 10px;
+}
+.dotsIcon {
+  position: absolute;
+  right: 4px;
+  width: 24px;
+  height: 24px;
+}

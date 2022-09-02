@@ -1,0 +1,20 @@
+.dropDown {
+  background-color: white;
+  position: absolute;
+  width: 80px;
+  padding: 10px;
+  left: 97%;
+  top: 70%;
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.dropDownItem {
+  margin: 2px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.dropDownItem:hover {
+  background-color: #f6f2ec;
+}
